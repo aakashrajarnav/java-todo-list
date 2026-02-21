@@ -36,12 +36,12 @@ This app lets you manage your tasks directly from the terminal: add new tasks, v
 
 3. Compile the program:
    ```bash
-   javac ToDoListApp.java
+   javac ToDoList.java
    ```
 
 4. Run the program:
    ```bash
-   java ToDoListApp
+   java ToDoList
    ```
 
 ---
