@@ -15,6 +15,17 @@ This app lets you manage your tasks directly from the terminal: add new tasks, v
 
 ---
 
+## Project Structure
+
+    java-todo-list/
+    │
+    ├── Dockerfile
+    └── src/
+        └── todolist/
+            └── ToDoList.java
+
+---
+
 ## Getting Started
 
 ### Prerequisites
@@ -32,7 +43,7 @@ This app lets you manage your tasks directly from the terminal: add new tasks, v
 
 2. Compile and run:
    ```bash
-   cd src
+   cd src/todolist
    javac -d . ToDoList.java
    java todolist.ToDoList
    ```
